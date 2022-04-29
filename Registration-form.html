@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+            <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Registration Form</h1>
+        <form action="process">
+            <div class="Information">
+                <p>
+                <label>First Name:* </label>
+                <input type="text" name="first_name" placeholder="First Name">
+                </p>
+
+                <p>
+                <label>Last Name:* </label>
+                <input type="text" name="last_name" placeholder="Last Name">
+                </p>
+
+                <p>
+                <label>Email Address:* </label>
+                <input type="text" name="email_address" placeholder="Email Address">
+                </p>
+
+                <p>
+                <label>Password:* </label>
+                <input type="password" name="password" placeholder="Password">
+                </p>
+
+                <p>
+                <label>Confirm Password:* </label>
+                <input type="password" name="password" placeholder="Confirm Password">
+                </p>
+
+                <p>
+                <label>Birthday: </label>
+                <input type="date" name="dob">
+                </p>
+
+            </div>
+        
+            <div class="Gender Indentity">
+                <p>Gender Indentity: </p>
+                
+                <p>
+                <input type="radio" name="font" value="male" id="male">
+                <label for= "male">Male</label>
+
+                <input type="radio" name="font" value="female" id="female">
+                <label female>Female</label>
+
+                <input type="radio" name="font" value="non-binary" id="non-binary">
+                <label non-binary>Non-Binary</label>
+
+                <input type="radio" name="font" value="I perfer not to answer" id="I perfer not to answer">
+                <label I perfer not to answer>I perfer not to answer</label>
+                </p>
+
+            </div>
+            <div>
+                <p>A short description about myself: </p>
+                    
+                <p><textarea name="description" id="description" placeholder = "Enter text" cols="30" rows="5"></textarea>
+                </p>
+            </div>
+            <div>
+                <label>Favorite Language</label>
+                <select name="language" id="language">
+                    <option>Javascript</option>
+                    <option>HTML</option>
+                    <option>CSS</option>
+                </select>
+            </div>
+            <div>
+                <input type="checkbox">
+                <label>Yes, I would to receive periodic email update</label>
+            </div>
+            <div>
+                <input type="submit" value = "Create Account">
+            </div>
+            <div>
+                * Indicates a required field
+            </div>
+        </form>
+    </body>
+</html>
